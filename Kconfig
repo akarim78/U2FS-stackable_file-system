@@ -1,0 +1,6 @@
+config U2_FS
+	tristate "U2fs stackable file system (EXPERIMENTAL)"
+	depends on EXPERIMENTAL
+	help
+	  U2fs is a stackable file system which simply passes its
+	  operations to the lower layer with functionality.
